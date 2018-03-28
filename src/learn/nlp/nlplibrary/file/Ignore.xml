@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Ignore type="ignore" describe="Danh sách các từ bỏ qua dùng chung cho toàn bộ chương trình.">
+  <Default key="default" describe="Tập các từ mặc định">
+    goòng soóc voọc
+  </Default>
+  <User key="user" describe="Tập các từ do người dùng định nghĩa.">
+    
+  </User>
+</Ignore>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Alphabet type="alphabet" descirbe="Bảng chữ cái.">
+  <Vowel type = "vowel" describe = "Nguyên âm" typesave="array">
+    a à ả ã á ạ ă ằ ẳ ẵ ắ ặ â ầ ẩ ẫ ấ ậ e è ẻ ẽ é ẹ ê ề ể ễ ế ệ
+    ì ỉ ĩ í ị o ò ỏ õ ó ọ ô ồ ổ ỗ ố ộ ơ ờ ở ỡ ớ ợ u ù ủ ũ ú ụ
+    ư ừ ử ữ ứ ự y
+  </Vowel>
+  <Consonant type = "consonant" describe = "Phụ âm" typesave="array">
+    b c d đ g h k l m n p q r s t v x
+  </Consonant>
+  <Compound type = "compound" describe="Âm ghép" typesave="array">
+    ngh ch gh ng nh 
+  </Compound>
+  <Syllable type = "syllable" descirbe="Vần" typesave="map">
+    <item key = "a">
+      ai am an anh ang
+    </item>
+    <item key="à">
+      ài àm àn ành àng ày
+    </item>
+    <item key="ả">
+      ải ảm ản ảnh ảng ảy  
+    </item>
+    <item key="ã">
+      ãi ãm ãn ãnh ãng ãy
+    </item>
+    <item key="á">
+      ác ách ái ám án ánh áng áp át áy
+    </item>
+    <item key="ạ">
+      ạc ạch ại ạm ạn ạnh ạng ạp ạt ạy
+    </item>
+    <item key = "ă">
+      ăm ăn ăng
+    </item>
+    <item key="ằ">
+      ằm ằn ằng
+    </item>
+    <item key="ẳ">
+      ẳm ẳn ẳng
+    </item>
+    <item key="ắ">
+      ẵm ẵn ẵng
+    </item>
+    <item key="ắ">
+      ắc ắm ắn ắng ắp ắt
+    </item>
+    <item key="ặ">
+      ặc ặm ặn ặng ặp ặt
+    </item>
+    <item key = "â">
+      âm ân âng ây
+    </item>
+    <item key = "ầ">
+      ầm ần ầng ầy
+    </item>
+    <item key = "ẩ">
+      ẩm ẩn ẩy
+    </item>
+    <item key = "ẫ">
+      ẫm ẫn ẫy
+    </item>    
+    <item key = "ấ">
+      ấc ấm ấn ấng ấp ấy ất
+    </item>
+    <item key = "ậ">
+      ậc ậm ận ậng ập ậy ật
+    </item>
+    <item key = "e">
+      em en enh eng
+    </item>
+    <item key = "è">
+      èm èn ènh èng
+    </item>
+    <item key = "ẻ">
+      ẻm ẻn ẻnh ẻng
+    </item>
+    <item key = "ẽ">
+      ẽm ẽn ẽnh ẽng
+    </item>
+    <item key = "é">
+      éc éch ém én éng éng ép ét
+    </item>
+    <item key = "ẹ">
+      ẹc ẹch ẹm ẹn ẹng ẹng ẹp ẹt
+    </item>     
+    <item key = "ê">
+      êm ên ênh
+    </item>
+    <item key = "ề">
+      ềm ền ềnh
+    </item>
+    <item key = "ể">
+      ểm ển ểnh
+    </item>
+    <item key = "ễ">
+      ễn ễn ễnh
+    </item>
+    <item key = "ế">
+      ếc ếch ếm ến ếnh ếp ết
+    </item>
+    <item key = "ệ">
+      ệc ệch ệm ện ệnh ệp ệt
+    </item>  
+    <item key = "i">
+      im in inh
+    </item>
+    <item key = "ì">
+      ìa ìm ìn ình
+    </item>
+    <item key = "ỉ">
+      ỉa ỉm ỉn ỉnh
+    </item>
+    <item key = "ĩ">
+      ĩa ĩm ĩn ĩnh
+    </item>
+    <item key = "í">
+      ía íc ích ím ín ính íp ít
+    </item>
+    <item key = "ị">
+      ịa ịc ịch ịm ịn ịnh ịp ịt
+    </item>    
+    <item key = "o">
+      oan oàn oản oãn oán oạn 
+      oang oàng oảng oãng oáng oạng
+      oăn oằn oẳn oẵn oắn oặn 
+      om on ong op ot oong ooc 
+	  ọoc ọong
+    </item>
+    <item key = "ò">
+      òm òn òng
+    </item>
+    <item key = "ỏ">
+      ỏm ỏn ỏng
+    </item>
+    <item key = "õ">
+      õm õn õng
+    </item>
+    <item key = "ó">
+      óc óm ón óng óp ót
+    </item>
+    <item key = "ọ">
+      ọc ọm ọn ọng ọp ọt
+    </item>    
+    <item key = "ô">
+      ôm ôn ông
+    </item>
+    <item key = "ồ">
+      ồm ồn ồng
+    </item>
+    <item key = "ổ">
+      ổm ổn ổng
+    </item>
+    <item key = "ỗ">
+      ỗm ỗn ỗng
+    </item>
+    <item key = "ố">
+      ốc ốm ốn ống ốp ốt
+    </item>    
+    <item key = "ộ">
+      ộc ộm ộn ộng ộp ột
+    </item>    
+    <item key = "ơ">
+      ơm ơn
+    </item>
+    <item key = "ờ">
+      ờm ờn
+    </item>
+    <item key = "ở">
+      ởm ởn
+    </item>
+    <item key = "ỡ">
+      ỡm ỡn
+    </item>
+    <item key = "ớ">
+      ớm ớn ớp ớt
+    </item>    
+    <item key = "ợ">
+      ợm ợn ợp ợt
+    </item>    
+    <item key = "u">
+      um un ung
+      uân uần uẩn uẫn uấn uận
+      uôn uồn uổn uỗn uốn uộn
+    </item>
+    <item key = "ù">
+       ùm ùn ùng 
+    </item>  
+    <item key = "ủ">
+       ủm ủn ủng
+    </item>
+    <item key = "ũ">
+       ũm ũn ũng
+    </item>
+    <item key = "ú">
+       úc úm ún úng úp
+    </item>
+    <item key = "ụ">
+       ục ụm ụn ụng ụp
+    </item>    
+    <item key = "ư">
+      ưc ưm  ưn ưng
+    </item>
+    <item key = "ừ">
+       ừm ừn ừng
+    </item>  
+    <item key = "ử">
+       ửm ửn ửng
+    </item>
+    <item key = "ữ">
+       ữm ữn ững
+    </item>
+    <item key = "ứ">
+       ức ứm ứn ứng
+    </item>
+    <item key = "ự">
+       ực ựm ựn ựng
+    </item>     
+    <item key = "y">
+      yen yem yên yêm
+    </item> 
+  </Syllable>
+  <Rules type="rules" describe="Luật nhận dạng từ đúng chính tả." typesave="list">
+    <rule>[vowel]</rule>      
+    <rule>[syllable]</rule> 
+	<rule>[consonant][syllable]</rule>
+	<rule>[consonant][vowel]</rule>	
+    <rule>[compound][vowel]</rule>
+	<rule>[compound][syllable]</rule>
+    <rule>[*]</rule>
+  </Rules>
+</Alphabet>

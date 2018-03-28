@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Current type="current" describe="Cài đặt cho phiên làm việc hiện tại.">
+  <Checkers type="checkers" describe="Danh sách các bộ Checker sử dụng">
+    <Checker type="checker" name="IgnoreChecker" state="IgnoreWord" describe="Kiểm tra các từ trong danh sách bỏ qua.">
+      <State type="IgnoreWord"></State>
+    </Checker>
+    <Checker type="checker" name="SpecialChecker" state="SpecialWord" describe="Kiểm tra các từ trong danh sách từ đặc biệt.">
+      <State type="SpecialWord"></State>
+    </Checker>
+    <Checker type="checker" name="SpellChecker" state="SpellWrongWord" describe="Kiểm tra chính tả từ.">
+      <State type="SpellingWrongWord"></State>
+    </Checker>
+  </Checkers>
+  <Ignore type="ignore" describe="Danh sách các từ bỏ qua.">
+    
+  </Ignore>
+</Current>

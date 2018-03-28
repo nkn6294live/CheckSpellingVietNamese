@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<System type="system" describe="Thông tin của hệ thống.">
+  <Default type="default" describe="Thông tin mặc định">
+    <Checkers type="checkers" describe="Danh sách các bộ Checker sử dụng">
+      <Checker type="checker" name="IgnoreChecker" state="IgnoreWord" describe="Kiểm tra các từ trong danh sách bỏ qua.">
+        <State type="IgnoreWord"></State>
+      </Checker>
+      <Checker type="checker" name="SpecialChecker" state="SpecialWord" describe="Kiểm tra các từ trong danh sách từ đặc biệt.">
+        <State type="SpecialWord"></State>
+      </Checker>
+      <Checker type="checker" name="SpellChecker" state="SpellWrongWord" describe="Kiểm tra chính tả từ.">
+        <State type="SpellingWrongWord"></State>
+      </Checker>
+    </Checkers>
+  </Default>
+  <Setting type="setting" describe="Thông tin cài đặt" date="01:01:1970" time="00:00:00">
+    
+  </Setting>
+</System>
